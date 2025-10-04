@@ -188,7 +188,7 @@ def create_movie_expert_chat():
     try:
         # Try to create chat with generation config
         chat = st.session_state.genai_client.chats.create(
-            model="gemini-2.0-flash-exp"  # Updated to latest model
+            model="gemini-2.5-flash"  # Updated to latest model
         )
         
         # Send system prompt as first message to establish expertise
@@ -199,7 +199,7 @@ def create_movie_expert_chat():
         # Fallback: create chat without config if not supported
         st.warning(f"⚠️ Using fallback configuration: {str(e)[:100]}...")
         try:
-            chat = st.session_state.genai_client.chats.create(model="gemini-1.5-flash")
+            chat = st.session_state.genai_client.chats.create(model="gemini-2.5-flash")
             chat.send_message(MOVIE_EXPERT_PROMPT)
             return chat
         except Exception as e2:
