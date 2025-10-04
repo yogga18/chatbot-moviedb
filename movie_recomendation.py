@@ -1,8 +1,8 @@
 import streamlit as st
 from google import genai
 
-st.title("💬 Movie Recommendation Chatbot")
-st.caption("A simple and friendly chat using Google's Gemini Flash model (Max 3 chat history)")
+st.title("💬 CineBot")
+st.caption("Asisten AI Pribadimu untuk Rekomendasi Film & TV.")
 
 # --- Sidebar ---
 with st.sidebar:
