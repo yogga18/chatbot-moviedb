@@ -1,5 +1,15 @@
 # 🎬 CineBot: Chatbot Rekomendasi Film & TV
 
+---
+
+## 🚀 **COBA DEMO LANGSUNG!**
+
+### 👆 **[🎬 KLIK DISINI UNTUK MENCOBA CINEBOT →](https://chatbot-moviedb.streamlit.app)**
+
+> **💡 Demo gratis tersedia!** Cukup masukkan Google AI API Key Anda (gratis dari [Google AI Studio](https://aistudio.google.com)) dan mulai chatting tentang film favorit Anda!
+
+---
+
 Selamat datang di **CineBot**, sebuah chatbot cerdas yang dirancang untuk menjadi asisten pribadi Anda dalam menjelajahi dunia sinema. Ditenagai oleh model AI canggih Google Gemini, CineBot dapat memberikan rekomendasi film, menjawab pertanyaan seputar aktor, sutradara, dan memberikan informasi detail dari The Movie Database (TMDB).
 
 ## ✨ Keunggulan Utama
